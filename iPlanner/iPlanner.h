@@ -9,7 +9,7 @@ class iPlanner {
 
   std::array<std::string, SIZE> taskList;
   std::array<std::string, SIZE> taskDate;
-
+  std::array<std::string, SIZE> taskTime;
 public:
   int loadFile(char * fileName);
   int saveFile(char * fileName);
