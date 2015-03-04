@@ -33,8 +33,7 @@ public:
   int addDescription(std::string& strData);
   int assignPriority(std::string& strData);
   int recurringTasks(std::string& strData);
-  int sortText(std::array<std::string,SIZE>& sortStr);
-      
+        
 };
 
 #endif
