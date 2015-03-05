@@ -36,4 +36,6 @@ public:
         
 };
 
+int manageiPlanner(char* fileName);
+
 #endif
