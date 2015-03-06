@@ -6,6 +6,16 @@
 
 using namespace std;
 
+void iPlanner::clearTasks(void) {
+  for (int i = 0; i < freePos; ++i) {
+    taskList[i].erase();
+    taskDate[i].erase();
+    taskTime[i].erase();
+  }
+   
+}
+
+
 // manageiPlanner takes user input and manipulates the 
 // iPlanner class object.
 int manageiPlanner(char *fileName) {

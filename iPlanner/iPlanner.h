@@ -1,3 +1,7 @@
+// Logic
+// Tutorial : F10-2C
+// Coder : Shri Kishen Rajendran
+
 #include "stdafx.h"
 
 #ifndef M_IPLANNER
@@ -10,6 +14,9 @@ class iPlanner {
   std::array<std::string, SIZE> taskList;
   std::array<std::string, SIZE> taskDate;
   std::array<std::string, SIZE> taskTime;
+
+  int freePos;
+
 public:
   int loadFile(char * fileName);
   int saveFile(char * fileName);
